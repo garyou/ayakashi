@@ -15,7 +15,7 @@ public class Stage1_view extends SurfaceView implements SurfaceHolder.Callback,R
 
 	private SurfaceHolder holder;
 	private Thread thread;
-	private Paint paint = new Paint();
+	private Paint paint = new Paint();//コメント追加
 
 	Resources r;
 	//端末サイズ変数系
